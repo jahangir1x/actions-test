@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jahangir Alam Rocky</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jahangir Alam Rocky</description>
+    <generator>Hugo -- 0.134.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Sep 2024 21:37:41 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Membrane to Mechanical: Arduino Nano (CH340x) and Hardwired chaos</title>
+      <link>http://localhost:1313/blog/posts/from-membrane-to-mechanical/</link>
+      <pubDate>Tue, 17 Sep 2024 21:37:41 +0600</pubDate>
+      <guid>http://localhost:1313/blog/posts/from-membrane-to-mechanical/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;html lang=&#34;en&#34; data-bs-theme=&#34;dark&#34;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&#34;UTF-8&#34; /&gt;
+        &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34; /&gt;
+        &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
+        &lt;title&gt;Contact | Jahangir Alam Rocky - Software Developer&lt;/title&gt;
+        &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.googleapis.com&#34; /&gt;
+        &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.gstatic.com&#34; crossorigin /&gt;
+        &lt;link
+            href=&#34;https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&amp;family=Roboto:wght@100;300;400&amp;display=swap&#34;
+            rel=&#34;stylesheet&#34;
+        /&gt;
+        &lt;link
+            href=&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&#34;
+            rel=&#34;stylesheet&#34;
+            integrity=&#34;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&#34;
+            crossorigin=&#34;anonymous&#34;
+        /&gt;
+        &lt;link
+            rel=&#34;stylesheet&#34;
+            href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css&#34;
+            integrity=&#34;sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==&#34;
+            crossorigin=&#34;anonymous&#34;
+            referrerpolicy=&#34;no-referrer&#34;
+        /&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/contact-style.min.css&#34; /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&#34;container-fluid&#34;&gt;
+            &lt;div class=&#34;row avatar-row navbar-row&#34;&gt;
+                &lt;div class=&#34;col-md-12&#34;&gt;
+                    &lt;a href=&#34;http://localhost:1313/&#34;
+                        &gt;&lt;img
+                            class=&#34;img-fluid avatar-button&#34;
+                            src=&#34;img/avatar.svg&#34;
+                            alt=&#34;avatar&#34;
+                    /&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;h1 class=&#34;main-message-text&#34;&gt;Send me a message!&lt;/h1&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;p class=&#34;description-text&#34;&gt;Got a question or proposal?&lt;/p&gt;
+                    &lt;p class=&#34;description-text&#34;&gt;Just want to say hello?&lt;/p&gt;
+                    &lt;p class=&#34;description-text&#34;&gt;Go ahead.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br /&gt;
+            &lt;form
+                action=&#34;mailto:x00jahangir@gmail.com&#34;
+                method=&#34;post&#34;
+                enctype=&#34;text/plain&#34;
+            &gt;
+                &lt;div class=&#34;row justify-content-center&#34;&gt;
+                    &lt;div class=&#34;col-md-3&#34;&gt;
+                        &lt;label for=&#34;name&#34; class=&#34;form-label form-element-title&#34;
+                            &gt;Your Name&lt;/label
+                        &gt;
+                        &lt;input
+                            type=&#34;text&#34;
+                            id=&#34;name&#34;
+                            name=&#34;name&#34;
+                            class=&#34;form-control form-field&#34;
+                            placeholder=&#34;Enter your name&#34;
+                        /&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;col-md-3&#34;&gt;
+                        &lt;label for=&#34;email&#34; class=&#34;form-label form-element-title&#34;
+                            &gt;Email Address&lt;/label
+                        &gt;
+                        &lt;input
+                            type=&#34;email&#34;
+                            id=&#34;email&#34;
+                            name=&#34;email&#34;
+                            class=&#34;form-control form-field&#34;
+                            placeholder=&#34;Enter your email address&#34;
+                        /&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;row justify-content-center mt-3&#34;&gt;
+                    &lt;div class=&#34;col-md-6&#34;&gt;
+                        &lt;label
+                            for=&#34;message&#34;
+                            class=&#34;form-label form-element-title&#34;
+                            &gt;Your Message&lt;span
+                                id=&#34;message-counter&#34;
+                                class=&#34;message-count&#34;
+                                &gt;0 characters&lt;/span
+                            &gt;&lt;/label
+                        &gt;
+                        &lt;textarea
+                            id=&#34;messageArea&#34;
+                            name=&#34;message&#34;
+                            cols=&#34;30&#34;
+                            rows=&#34;6&#34;
+                            class=&#34;form-control form-field&#34;
+                            placeholder=&#34;Hi, we need to develop a Web application for our product at Company X. Are you available to develop with us?&#34;
+                        &gt;&lt;/textarea&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;row justify-content-center mt-3&#34;&gt;
+                    &lt;div class=&#34;col-md-6 text-center&#34;&gt;
+                        &lt;button
+                            type=&#34;submit&#34;
+                            value=&#34;submit&#34;
+                            class=&#34;btn btn-outline-info&#34;
+                        &gt;
+                            &lt;i class=&#34;fa-regular fa-paper-plane&#34;&gt;&lt;/i&gt;
+                            Send
+                        &lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;script
+            src=&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&#34;
+            integrity=&#34;sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN&#34;
+            crossorigin=&#34;anonymous&#34;
+        &gt;&lt;/script&gt;
+        &lt;script src=&#34;http://localhost:1313/js/contact.js&#34;&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uindex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uindex/</guid>
+      <description>&lt;html lang=&#34;en&#34; data-bs-theme=&#34;dark&#34;&gt;
+    &lt;head&gt;
+        &lt;!-- Google tag (gtag.js) --&gt;
+        &lt;script
+            async
+            src=&#34;https://www.googletagmanager.com/gtag/js?id=G-KJDQJWPFCC&#34;
+        &gt;&lt;/script&gt;
+        &lt;script&gt;
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag(&#34;js&#34;, new Date());
+
+            gtag(&#34;config&#34;, &#34;G-KJDQJWPFCC&#34;);
+        &lt;/script&gt;
+        &lt;meta charset=&#34;UTF-8&#34; /&gt;
+        &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34; /&gt;
+        &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
+        &lt;title&gt;Jahangir Alam Rocky | Software Developer&lt;/title&gt;
+        &lt;link rel=&#34;icon&#34; href=&#34;img/favicon.svg&#34; type=&#34;image/x-icon&#34; /&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/style.min.css&#34; /&gt;
+        &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.googleapis.com&#34; /&gt;
+        &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.gstatic.com&#34; crossorigin /&gt;
+        &lt;link
+            href=&#34;https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&amp;family=Roboto:wght@100;300;400&amp;display=swap&#34;
+            rel=&#34;stylesheet&#34;
+        /&gt;
+        &lt;link
+            href=&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&#34;
+            rel=&#34;stylesheet&#34;
+            integrity=&#34;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&#34;
+            crossorigin=&#34;anonymous&#34;
+        /&gt;
+        &lt;link
+            rel=&#34;stylesheet&#34;
+            href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css&#34;
+            integrity=&#34;sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==&#34;
+            crossorigin=&#34;anonymous&#34;
+            referrerpolicy=&#34;no-referrer&#34;
+        /&gt;
+        &lt;meta
+            name=&#34;ocs-site-verification&#34;
+            content=&#34;7a07464cb917c24613794f8cd569d51b&#34;
+        /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&#34;container-fluid&#34;&gt;
+            &lt;div class=&#34;row avatar-row navbar-row&#34;&gt;
+                &lt;div class=&#34;col-md-12&#34;&gt;
+                    &lt;a href=&#34;http://localhost:1313/&#34;
+                        &gt;&lt;img
+                            class=&#34;img-fluid avatar-button&#34;
+                            src=&#34;img/avatar.svg&#34;
+                            alt=&#34;avatar&#34;
+                    /&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div
+                class=&#34;row text-center justify-content-center&#34;
+                style=&#34;margin-top: 100px&#34;
+            &gt;
+                &lt;div class=&#34;col-md-6&#34;&gt;
+                    &lt;img
+                        class=&#34;img-fluid mb-4 rounded-circle shadow&#34;
+                        style=&#34;max-width: 70vh&#34;
+                        src=&#34;img/avatar.png&#34;
+                        alt=&#34;Picture&#34;
+                        width=&#34;300&#34;
+                        loading=&#34;lazy&#34;
+                    /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br /&gt;
+            &lt;div class=&#34;row text-center justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;span id=&#34;hi-text&#34;&gt;Hi, I&#39;m &lt;/span
+                    &gt;&lt;span id=&#34;name-text&#34;&gt;Jahangir&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br /&gt;
+            &lt;div class=&#34;row text-center justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;span class=&#34;intro-text&#34;&gt;
+                        Backend Application Developer based in &lt;/span
+                    &gt;&lt;a
+                        class=&#34;head-link&#34;
+                        target=&#34;_blank&#34;
+                        href=&#34;https://goo.gl/maps/teF8cfYFnAPAJAU16&#34;
+                        &gt;Rajshahi, Bangladesh&lt;/a
+                    &gt;&lt;span class=&#34;intro-text&#34;&gt;.&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row text-center justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;span class=&#34;intro-text&#34;&gt;
+                        Focused on
+                        &lt;span class=&#34;badge text-bg-primary&#34;&gt;Go&lt;/span&gt;
+                        &lt;span class=&#34;badge text-bg-primary&#34;&gt;Node.js&lt;/span&gt;
+                        &lt;span class=&#34;badge text-bg-primary&#34;&gt;Unity&lt;/span&gt;
+                        &lt;span class=&#34;badge text-bg-primary&#34;&gt;OSS&lt;/span&gt;
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br /&gt;
+            &lt;div class=&#34;row text-center justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;span class=&#34;intro-text&#34;
+                        &gt;I&#39;m also an undergraduate student at &lt;/span
+                    &gt;&lt;a
+                        class=&#34;head-link&#34;
+                        target=&#34;_blank&#34;
+                        href=&#34;https://www.ru.ac.bd/&#34;
+                        &gt;University of Rajshahi&lt;/a
+                    &gt;&lt;span class=&#34;intro-text&#34;&gt;.&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;div class=&#34;row justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-12&#34;&gt;
+                    &lt;div class=&#34;horizontal-divider&#34;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br /&gt;
+            &lt;div class=&#34;row text-center justify-content-center&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    &lt;span class=&#34;section-head-text&#34; id=&#34;projects&#34;&gt;My &lt;/span
+                    &gt;&lt;span class=&#34;section-head-text-emphasize&#34;&gt;Projects&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br /&gt;
+            &lt;div&gt;
+                &lt;div class=&#34;row justify-content-center&#34;&gt;
+                    &lt;div class=&#34;col-md-6 px-5&#34;&gt;
+                        &lt;img
+                            class=&#34;img-fluid mb-4 rounded-4 shadow&#34;
+                            src=&#34;https://addons.mozilla.org/user-media/previews/full/289/289939.png?modified=1701981204&#34;
+                            alt=&#34;Workspaces+ extension demo&#34;
+                            loading=&#34;lazy&#34;
+                        /&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;row justify-content-center text-center&#34;&gt;
+                    &lt;div class=&#34;col-md-6&#34;&gt;
+                        &lt;p class=&#34;project-title-text&#34;&gt;
+                            Workspaces+ extension for Firefox
+                        &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
