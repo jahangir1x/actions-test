@@ -1,6 +1,9 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: Deploy to Server
+run-name: deploy for ${{ github.actor }} / ${{ github.event_name }} 🚀
 on:
+    push:
+        branches:
+            - main
     workflow_dispatch:
 
 jobs:
