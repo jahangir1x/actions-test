@@ -22,9 +22,6 @@ jobs:
 
             - name: Install dependencies
               run: yarn install
-
-            - name: list repo files
-              run: ls -lah ${{ github.workspace }}
             
             - name: Write SSH keys
               run: |
@@ -32,5 +29,5 @@ jobs:
                   echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
                   ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
 
-            - name: List server files for testing
-              run: ssh -i ~/.ssh/id_rsa ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} ls -la
+            - name: Deploy to server
+              run: rsync -e "ssh -i ~/.ssh/id_rsa" -r -v --delete ${{ github.workspace }}/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}
