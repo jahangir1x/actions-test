@@ -21,5 +21,11 @@ jobs:
             - name: Install dependencies
               run: yarn install
             
-            - name: check folder contents
-              run: ls -la
+            - name: Write SSH keys
+              run: |
+                  install -m 600 -D /dev/null ~/.ssh/id_rsa
+                  echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+                  ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+
+            - name: List server files for testing
+              run: ssh -i ~/.ssh/id_rsa ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} ls -la
