@@ -11,6 +11,8 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                   node-version: "23"
+                  cache: "npm"
+                  cache-dependency-path: "./yarn.lock"
 
             - name: Install corepack
               run: npm install -g corepack
@@ -20,6 +22,9 @@ jobs:
 
             - name: Install dependencies
               run: yarn install
+
+            - name: list repo files
+              run: ls -lah ${{ github.workspace }}
             
             - name: Write SSH keys
               run: |
