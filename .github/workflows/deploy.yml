@@ -1,5 +1,5 @@
 name: Deploy to Server
-run-name: deploy for ${{ github.actor }} / ${{ github.event_name }} 🚀
+run-name: build and deploy for action - ${{ github.actor }} / ${{ github.event_name }} 🚀
 on:
     push:
         branches:
@@ -7,7 +7,7 @@ on:
     workflow_dispatch:
 
 jobs:
-    Explore-GitHub-Actions:
+    deploy:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
