@@ -1,0 +1,14 @@
+name: Deploy to Server
+run-name: ${{ inputs.build_id }} ${{ inputs.deploy_target }} ${{ github.action }} ${{ github.action_ref }} - ${{ github.actor }} / ${{ github.event_name }} 🚀
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Deploy to server
+              run: echo testing
