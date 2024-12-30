@@ -1,5 +1,5 @@
 name: Deploy to Server
-run-name: ${{ inputs.build_id }} ${{ inputs.deploy_target }} ${{ github.action }} ${{ github.action_ref }} - ${{ github.actor }} / ${{ github.event_name }} 🚀
+run-name: ${{ github.action }} ${{ github.action_ref }} - ${{ github.actor }} / ${{ github.event_name }} 🚀
 on:
     push:
         branches:
